@@ -1,0 +1,42 @@
+.sidebar{
+    height: 560px;
+    width: 80px;
+    display: flex;
+    position: relative;
+    border-radius: 12px 0 0 12px;
+    overflow: hidden;
+}
+
+.left{
+    width: 10px;
+    background-color: rgb(107, 88, 165);
+}
+
+.right{
+    width: 70px;
+    background-color: rgb(81, 74, 126);
+}
+
+.upper{
+    width: 80px;
+    height: 120px;
+    position: absolute;
+    top:0;
+}
+
+.items{
+    width: 70px;
+    position: absolute;
+    top:130px;
+    left:10px;
+    background-color: yellow;
+}
+
+.lower{
+    width: 80px;
+    height: 120px;
+    position: absolute;
+    bottom: 0;
+    transform: rotate(180deg);
+    transform: scaleY(-1);
+}
