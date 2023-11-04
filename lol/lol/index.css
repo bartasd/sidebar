@@ -1,0 +1,47 @@
+:root {
+    --fr: 150px;
+    --sr: 600px;
+}
+
+body{
+    position: relative;
+    margin-left: 200px;
+}
+
+.first_c{
+    width: calc(var(--fr)*2);
+    height: calc(var(--fr)*2);
+    position: absolute;
+    background-color: yellow;
+    border-radius: var(--fr);
+    border:1px solid black;
+    top:170px;
+    left:170px;
+
+}
+
+.second_c{
+    width: calc(var(--sr)*2);
+    height: calc(var(--sr)*2);
+    position: absolute;
+    border-radius: var(--sr);
+    border:2px solid black;
+    top:48px;
+    left:48px;
+}
+
+.third_c{
+    top:110px;
+    left:-125px;
+}
+
+.fourth_c{
+    width: calc(var(--sr)*2);
+    height: calc(var(--sr)*2);
+    position: absolute;
+    background: transparent;
+    border-radius: var(--sr);
+    border:2px solid black;
+    top:48px;
+    left:48px;
+}
