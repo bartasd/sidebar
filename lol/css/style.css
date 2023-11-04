@@ -1,0 +1,23 @@
+body{
+    position: relative;
+}
+
+.triangle{
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    left: 40px;
+    border-left: 40px solid transparent;
+    border-bottom: 40px solid yellow;
+    border-bottom-right-radius: 40px;
+}
+
+.triangle2{
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    top: 40px;
+    border-right: 40px solid transparent;
+    border-top: 40px solid yellow;
+    border-top-left-radius: 40px;
+}
